@@ -27,7 +27,7 @@ Sample Input
 2 9 
 7 2 
 7 9 
-9 5
+9 5    
 7 
 9
 
@@ -54,7 +54,7 @@ for ele in L:
     else:
         follower.append(ele)
 op = 0
-for ind in range(1,len(follower)):
+for ind in range(1,len(follower)):    ##### to check whether the follower can approach the following or not
     if ind ==0:
         if follower[ind] in following or follower[ind+1] in following:
             op =1
