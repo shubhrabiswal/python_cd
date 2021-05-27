@@ -53,7 +53,7 @@ for ele in L:
         following.append(ele[2])
     else:
         follower.append(ele)
-op = 0
+op = 0 #initilize op
 for ind in range(1,len(follower)):    ##### to check whether the follower can approach the following or not
     if ind ==0:
         if follower[ind] in following or follower[ind+1] in following:
